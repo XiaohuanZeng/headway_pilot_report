@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Next-Day Reporting for Headway-Based Service Proof-of-Concept Field Test</title>
+  <meta name="description" content="Next-Day Reporting for Headway-Based Service Proof-of-Concept Field Test" />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Next-Day Reporting for Headway-Based Service Proof-of-Concept Field Test" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta name="github-repo" content="Metropolitan-Council/si_onboarding" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Next-Day Reporting for Headway-Based Service Proof-of-Concept Field Test" />
+  
+  
+  
+
+<meta name="author" content="Xiaohuan Zeng" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./index.html">Hdeadway Based Service Pilot</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path=""><a href="#introduction"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#metrics"><i class="fa fa-check"></i>Metrics</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#results"><i class="fa fa-check"></i>Results</a>
+<ul>
+<li class="chapter" data-level="" data-path=""><a href="#number-of-trips-delivered"><i class="fa fa-check"></i>Number of trips delivered</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#number-of-gaps"><i class="fa fa-check"></i>Number of gaps</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#headway-performance"><i class="fa fa-check"></i>Headway performance</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#terminal-headway-performance"><i class="fa fa-check"></i>Terminal headway performance</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#number-of-vehicles-inserted"><i class="fa fa-check"></i>Number of vehicles inserted</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#section-travel-times"><i class="fa fa-check"></i>Section travel times</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/Metropolitan-Council/185_headway_based_service_pilot">Github Repository</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Next-Day Reporting for Headway-Based Service Proof-of-Concept Field Test</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Next-Day Reporting for Headway-Based Service Proof-of-Concept Field Test</h1>
+<p class="author"><em>Xiaohuan Zeng</em></p>
+<p class="date"><em>18 August, 2023</em></p>
+</div>
+<div id="introduction" class="section level2 hasAnchor">
+<h2>Introduction<a href="#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Metro Transit Bus Operations will be running a proof-of-concept field test of headway-based service for the A Line during the 2023 State Fair. During the pilot, A Line buses will prioritize consistent headways over schedule adherence with a goal of reducing the gaps and bunching caused by variable travel times near State Fair grounds.</p>
+<p>While the full pilot evaluation will occur after the State Fair, senior operations leadership need daily updates to monitor the pilot while it is running. This page created by Strategic Initiatives will provide a daily update on the following metrics that are relevant to evaluate the performance of transit service.</p>
+</div>
+<div id="metrics" class="section level2 hasAnchor">
+<h2>Metrics<a href="#metrics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><strong>Number of trips delivered:</strong> Number of A Line buses that depart from Snelling and Como station in both directions.</li>
+<li><strong>Number of gaps:</strong> Number of times the gap between successive buses at a station exceeds a defined threshold (default 30 minutes, and excluding the scheduled headways larger than the defined threshold).</li>
+<li><strong>Headway performance:</strong> Percentage of bus departures where the actual headway is between 60% – 140% of the scheduled headway (excluding start terminals).</li>
+<li><strong>Terminal headway performance:</strong> Percentage of bus departures where the actual headway is between 60 – 140% of the scheduled headway (only including start terminals).</li>
+<li><strong>Number of vehicles inserted:</strong> Daily count of trips performed by vehicles added to the A Line to reduce gaps.</li>
+<li><strong>Section travel times:</strong> Travel times along the following corridors:
+<ul>
+<li>46th Street – Snelling and Highland</li>
+<li>Snelling and Highland – Snelling and Grand</li>
+<li>Snelling and Grand – Snelling and Minnehaha</li>
+<li>Snelling and Minnehaha – Snelling and Larpenteur</li>
+<li>Snelling and Larpenteur - Rosedale</li>
+</ul></li>
+</ul>
+</div>
+<div id="results" class="section level2 hasAnchor">
+<h2>Results<a href="#results" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>To illustrate the metrics mentioned above, right now line plots by day were created for the <strong>2022</strong> Minnesota State Fair (Aug 25, 2022 – Sep 5, 2022). These Plots will be replaced by data from <strong>2023</strong> Minnesota State Fair after the field test begins and data is available. And this page will be updated every day during the State Fair to display the most recent results.</p>
+<div id="number-of-trips-delivered" class="section level3 hasAnchor">
+<h3>Number of trips delivered<a href="#number-of-trips-delivered" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="next_day_report_files/figure-html/plot_trips_delivered-1.png" width="672" /></p>
+</div>
+<div id="number-of-gaps" class="section level3 hasAnchor">
+<h3>Number of gaps<a href="#number-of-gaps" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="next_day_report_files/figure-html/plot_service_gap-1.png" width="672" /></p>
+</div>
+<div id="headway-performance" class="section level3 hasAnchor">
+<h3>Headway performance<a href="#headway-performance" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="next_day_report_files/figure-html/plot_headway_performance-1.png" width="672" /></p>
+</div>
+<div id="terminal-headway-performance" class="section level3 hasAnchor">
+<h3>Terminal headway performance<a href="#terminal-headway-performance" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="next_day_report_files/figure-html/plot_terminal_headway_performance-1.png" width="672" /></p>
+</div>
+<div id="number-of-vehicles-inserted" class="section level3 hasAnchor">
+<h3>Number of vehicles inserted<a href="#number-of-vehicles-inserted" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="next_day_report_files/figure-html/plot_vehicles_inserted-1.png" width="672" /></p>
+</div>
+<div id="section-travel-times" class="section level3 hasAnchor">
+<h3>Section travel times<a href="#section-travel-times" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="next_day_report_files/figure-html/plot_section_travel_time-1.png" width="672" /></p>
+<p>Stations along A line (Northbound) for reference:</p>
+<ul>
+<li><strong>46th St Station Gate A</strong></li>
+<li>46th St &amp; Minnehaha Station</li>
+<li>46th St &amp; 46th Ave Station</li>
+<li>Ford &amp; Woodlawn Station</li>
+<li>Ford &amp; Finn Station</li>
+<li>Ford &amp; Kenneth Station</li>
+<li>Ford &amp; Fairview Station</li>
+<li><strong>Snelling &amp; Highland Station</strong></li>
+<li>Snelling &amp; Randolph Station</li>
+<li>Snelling &amp; St Clair Station</li>
+<li><strong>Snelling &amp; Grand Station</strong></li>
+<li>Snelling &amp; Dayton Station</li>
+<li>Snelling &amp; University Station</li>
+<li><strong>Snelling &amp; Minnehaha Station</strong></li>
+<li>Snelling &amp; Hewitt Station</li>
+<li>Snelling &amp; Como Station</li>
+<li>Snelling &amp; Nebraska Station</li>
+<li><strong>Snelling &amp; Larpenteur Station</strong></li>
+<li>Snelling &amp; Co Rd B Station</li>
+<li><strong>Rosedale Transit Center Gate A</strong></li>
+</ul>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": null,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": false,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
